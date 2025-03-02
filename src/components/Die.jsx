@@ -1,21 +1,27 @@
-import React from "react"
+import React from "react";
+import One from "../assets/One.svg";
+import Two from "../assets/Two.svg";
+import Three from "../assets/Three.svg";
+import Four from "../assets/Four.svg";
+import Five from "../assets/Five.svg";
+import Six from "../assets/Six.svg";
 
 export default function Die(props) {
 
     let backgroundImage
     
     if (props.value === 1) {
-        backgroundImage = `url("/public/One.svg")`
+        backgroundImage = `url("${One}")`
     } else if (props.value === 2) {
-        backgroundImage = `url("/public/Two.svg")`
+        backgroundImage = `url("${Two}")`
     } else if (props.value === 3) {
-        backgroundImage = `url("/public/Three.svg")`
+        backgroundImage = `url("${Three}")`
     } else if (props.value === 4) {
-        backgroundImage = `url("/public/Four.svg")`
+        backgroundImage = `url("${Four}")`
     } else if (props.value === 5) {
-        backgroundImage = `url("/public/Five.svg")`
+        backgroundImage = `url("${Five}")`
     } else if (props.value === 6) {
-        backgroundImage = `url("/public/Six.svg")`
+        backgroundImage = `url("${Six}")`
     }
     
 
